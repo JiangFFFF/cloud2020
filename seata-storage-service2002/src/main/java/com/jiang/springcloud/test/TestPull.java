@@ -1,7 +1,5 @@
 package com.jiang.springcloud.test;
 
-import org.apache.commons.lang3.builder.ToStringExclude;
-import org.testng.annotations.Test;
 
 /**
  * @author jiang
@@ -9,7 +7,7 @@ import org.testng.annotations.Test;
  */
 public class TestPull {
 
-    @Test
+
     public void test1(){
         System.out.println("测试git！");
     }
